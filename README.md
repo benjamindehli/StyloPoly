@@ -28,6 +28,9 @@ A Dubreq Stylophone S-1 with some added features
 |:--:|
 |Overview|
 
+The user interface offers precise control over every aspect of the instrument and effects.
+Explore parameters to refine your sound, including control over the audio mixer, envelope, pitch modulation with LFOs, highpass and lowpass filters, velocity/dynamics, speaker simulator, and the immersive effects of echo and reverb.
+
 ### Keyboard
 
 |![Controls for the keyboard settings](/Screenshots/keyboard.png)|
