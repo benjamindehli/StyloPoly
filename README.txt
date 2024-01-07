@@ -1,10 +1,8 @@
 # StyloPoly - Version: [1.0]
 
 Date: 2024-01-07
-
 Name: Benjamin Dehli
-
-Profile: [pianobook.co.uk/profile/benjamindehli](https://www.pianobook.co.uk/profile/benjamindehli/)
+Profile: pianobook.co.uk/profile/benjamindehli
 
 ## Included formats
 
@@ -24,15 +22,7 @@ A Dubreq Stylophone S-1 with some added features
 
 ## User Interface
 
-|![Overview](/Screenshots/stylo-poly.png)|
-|:--:|
-|Overview|
-
 ### Keyboard
-
-|![Controls for the keyboard settings](/Screenshots/keyboard.png)|
-|:--:|
-|Controls for the keyboard settings|
 
 - Mono / Poly
   - Mono: Plays only one note at the time, like the original Stylophone
@@ -41,10 +31,6 @@ A Dubreq Stylophone S-1 with some added features
   - Determines whether the velocity should affect the volume of the samples
 
 ### Envelope
-
-|![Controls for the envelope settings](/Screenshots/envelope.png)|
-|:--:|
-|Controls for the envelope settings|
 
 Shape your sound precisely with the Attack, Decay, Sustain, and Release parameters. Whether you desire a punchy, staccato tone or a smooth, lingering ambiance, the ADSR envelope allows you to tailor the dynamics to your liking.
 
@@ -61,10 +47,6 @@ Shape your sound precisely with the Attack, Decay, Sustain, and Release paramete
 
 #### Mixer
 
-|![Mixer controls](/Screenshots/mixer.png)|
-|:--:|
-|Mixer controls|
-
 The original Stylophone only lets you select one voice at a time, but with StyloPoly you can blend between all the three voices at the same time.
 
 - Low
@@ -76,20 +58,12 @@ The original Stylophone only lets you select one voice at a time, but with Stylo
 
 #### Noise
 
-|![Noise controls](/Screenshots/noise.png)|
-|:--:|
-|Noise controls|
-
 - Attack
   - Pops and crackles when the stylus hits the "keyboard"
 - Release
   - Pops and crackles when the stylus releases from the "keyboard"
 
 ### Vibrato
-
-|![Controls for the vibrato settings](/Screenshots/vibrato.png)|
-|:--:|
-|Controls for the vibrato settings|
 
 The depth and rate knobs enable you to modulate the pitch of the sound with the desired depth and rate using a Low-Frequency Oscillator (LFO). With both controls in middle position you have approximately the same vibrato as the original Stylophone.
 
@@ -100,24 +74,12 @@ The depth and rate knobs enable you to modulate the pitch of the sound with the 
 
 ### Output
 
-|![Controls for the output settings](/Screenshots/output.png)|
-|:--:|
-|Controls for the output settings|
-
 - Line out
   - The direct sound of the line output
 - Speaker
   - The sound of the internal speaker miced with a Shure SM57
 
 ### High Pass Filter and Low Pass Filter
-
-|![Controls for the high pass filter](/Screenshots/high-pass-filter.png)|
-|:--:|
-|Controls for the high pass filter|
-
-|![Controls for the low pass filter](/Screenshots/low-pass-filter.png)|
-|:--:|
-|Controls for the low pass filter|
 
 StyloPoly has a high pass filter and a low pass filter. The high pass filter ranges from 20 Hz to 2000 Hz and the low pass filter ranges from 200 Hz to 22000 Hz.
 
@@ -134,10 +96,6 @@ These effects are achieved using carefully crafted impulse responses. The echo e
 
 #### Echo
 
-|![Controls for the tape echo impulse response](/Screenshots/echo.png)|
-|:--:|
-|Controls for the tape echo impulse response|
-
 Select from two distinctive echo options: the short echo, delivering a classic slapback effect, and the long echo, characterized by a slower decay and numerous repeats.
 
 - Off / On
@@ -149,10 +107,6 @@ Select from two distinctive echo options: the short echo, delivering a classic s
 
 #### Reverb
 
-|![Controls for the room reverb impulse response](/Screenshots/reverb.png)|
-|:--:|
-|Controls for the room reverb impulse response|
-
 You'll also find two reverb effects: the short reverb, evoking the intimacy of a small room, and the long reverb, enveloping your sound in the vastness of a spacious environment.
 
 - Off / On
@@ -163,9 +117,5 @@ You'll also find two reverb effects: the short reverb, evoking the intimacy of a
   - Mix between direct signal and reverb signal
 
 ### Preset
-
-|![Controls for the preset select](/Screenshots/preset.png)|
-|:--:|
-|Controls for the preset select|
 
 Some presets are true to the original Stylophone and some presets take advantage of the additional features of StyloPoly. The presets only affects the controls already available from the GUI. They are not meant to sound like a real piano, harpsichord, clavinet, etc. The preset names are more of a way to describe the timbre.
