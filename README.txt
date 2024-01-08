@@ -23,7 +23,7 @@ A Dubreq Stylophone S-1 with some added features
 ## User Interface
 
 The user interface offers precise control over every aspect of the instrument and effects.
-Explore parameters to refine your sound, including control over the audio mixer, envelope, pitch modulation with LFOs, highpass and lowpass filters, velocity/dynamics, speaker simulator, and the immersive effects of echo and reverb.
+Explore parameters to refine your sound, including control over the audio mixer, envelope, pitch modulation with LFOs, high pass and low pass filters, velocity/dynamics, speaker simulator, and the immersive effects of echo and reverb.
 
 ### Keyboard
 
@@ -38,13 +38,13 @@ Explore parameters to refine your sound, including control over the audio mixer,
 Shape your sound precisely with the Attack, Decay, Sustain, and Release parameters. Whether you desire a punchy, staccato tone or a smooth, lingering ambiance, the ADSR envelope allows you to tailor the dynamics to your liking.
 
 - Attack
-  - Attack time of the amplitude envelope for the three vioces
+  - Attack time of the amplitude envelope for the three voices
 - Decay
-  - Decay time of the amplitude envelope for the three vioces
+  - Decay time of the amplitude envelope for the three voices
 - Sustain
-  - Sustain level of the amplitude for the three vioces
+  - Sustain level of the amplitude envelope for the three voices
 - Release
-  - Release time of the amplitude for the three vioces
+  - Release time of the amplitude envelope for the three voices
 
 ### Samples volume
 
