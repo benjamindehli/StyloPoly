@@ -12,20 +12,20 @@
       <!-- Polyphonic -->
       <button x="57" y="30" width="21" height="27" style="image" value="1">
         <state name="keyboard_mono" mainImage="Resources/button_off.png" hoverImage="Resources/button_off.png" clickImage="Resources/button_on.png">
-          <binding type="general" level="group" position="0" parameter="ENABLED" translation="fixed_value" translationValue="false" />
-          <binding type="general" level="group" position="1" parameter="ENABLED" translation="fixed_value" translationValue="false" />
-          <binding type="general" level="group" position="2" parameter="ENABLED" translation="fixed_value" translationValue="false" />
-          <binding type="general" level="group" position="5" parameter="ENABLED" translation="fixed_value" translationValue="true" />
-          <binding type="general" level="group" position="6" parameter="ENABLED" translation="fixed_value" translationValue="true" />
-          <binding type="general" level="group" position="7" parameter="ENABLED" translation="fixed_value" translationValue="true" />
+          <binding type="amp" level="group" position="0" parameter="ENABLED" translation="fixed_value" translationValue="false" />
+          <binding type="amp" level="group" position="1" parameter="ENABLED" translation="fixed_value" translationValue="false" />
+          <binding type="amp" level="group" position="2" parameter="ENABLED" translation="fixed_value" translationValue="false" />
+          <binding type="amp" level="group" position="5" parameter="ENABLED" translation="fixed_value" translationValue="true" />
+          <binding type="amp" level="group" position="6" parameter="ENABLED" translation="fixed_value" translationValue="true" />
+          <binding type="amp" level="group" position="7" parameter="ENABLED" translation="fixed_value" translationValue="true" />
         </state>
         <state name="keyboard_poly" mainImage="Resources/button_on.png" hoverImage="Resources/button_on.png" clickImage="Resources/button_off.png">
-          <binding type="general" level="group" position="0" parameter="ENABLED" translation="fixed_value" translationValue="true" />
-          <binding type="general" level="group" position="1" parameter="ENABLED" translation="fixed_value" translationValue="true" />
-          <binding type="general" level="group" position="2" parameter="ENABLED" translation="fixed_value" translationValue="true" />
-          <binding type="general" level="group" position="5" parameter="ENABLED" translation="fixed_value" translationValue="false" />
-          <binding type="general" level="group" position="6" parameter="ENABLED" translation="fixed_value" translationValue="false" />
-          <binding type="general" level="group" position="7" parameter="ENABLED" translation="fixed_value" translationValue="false" />
+          <binding type="amp" level="group" position="0" parameter="ENABLED" translation="fixed_value" translationValue="true" />
+          <binding type="amp" level="group" position="1" parameter="ENABLED" translation="fixed_value" translationValue="true" />
+          <binding type="amp" level="group" position="2" parameter="ENABLED" translation="fixed_value" translationValue="true" />
+          <binding type="amp" level="group" position="5" parameter="ENABLED" translation="fixed_value" translationValue="false" />
+          <binding type="amp" level="group" position="6" parameter="ENABLED" translation="fixed_value" translationValue="false" />
+          <binding type="amp" level="group" position="7" parameter="ENABLED" translation="fixed_value" translationValue="false" />
         </state>
       </button>
 
@@ -1022,7 +1022,7 @@
       <sample loNote="76" hiNote="127" rootNote="76" path="Samples/3/3_4E.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="1" loopEnd="103531" loopStart="33892" loopCrossfade="480" start="0"/>
       <effects/>
     </group>
-    <group tags="noise-on" trigger="attack" seqMode="random" seqLength="23" release="1.00" volume="0.5">
+    <group tags="noise-on" trigger="attack" seqMode="random" seqLength="23" volume="0.5" ampEnvEnabled="false">
       <sample loNote="0" hiNote="127" rootNote="64" path="Samples/NoiseOn/NoiseOn_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0" seqPosition="1"/>
       <sample loNote="0" hiNote="127" rootNote="64" path="Samples/NoiseOn/NoiseOn_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0" seqPosition="2"/>
       <sample loNote="0" hiNote="127" rootNote="64" path="Samples/NoiseOn/NoiseOn_03.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0" seqPosition="3"/>
@@ -1047,7 +1047,7 @@
       <sample loNote="0" hiNote="127" rootNote="64" path="Samples/NoiseOn/NoiseOn_22.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0" seqPosition="22"/>
       <sample loNote="0" hiNote="127" rootNote="64" path="Samples/NoiseOn/NoiseOn_23.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0" seqPosition="23"/>
     </group>
-    <group tags="noise-off" trigger="release" seqMode="random" seqLength="23" volume="0.5">
+    <group tags="noise-off" trigger="release" seqMode="random" seqLength="23" volume="0.5" ampEnvEnabled="false">
       <sample loNote="0" hiNote="127" rootNote="64" path="Samples/NoiseOff/NoiseOff_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0" seqPosition="1"/>
       <sample loNote="0" hiNote="127" rootNote="64" path="Samples/NoiseOff/NoiseOff_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0" seqPosition="2"/>
       <sample loNote="0" hiNote="127" rootNote="64" path="Samples/NoiseOff/NoiseOff_03.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0" seqPosition="3"/>
