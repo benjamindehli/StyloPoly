@@ -1,14 +1,26 @@
-# StyloPoly - Version: [1.0]
+# StyloPoly - Version: [1.2]
 
-Date: 2024-01-07
+Date: 2025-01-04
 
 Name: Benjamin Dehli
 
-Profile: [pianobook.co.uk/profile/benjamindehli](https://www.pianobook.co.uk/profile/benjamindehli/)
+Profile: [store.dehlimusikk.no][Gumroad profile]
 
 ## Included formats
 
 - Decent Sampler
+
+## Release notes
+
+### Version 1.2 (2025-01-04)
+
+- Removed amplitude envelope for one shot samples
+
+### Version 1.1 (2024-02-17)
+
+- Improved crossfades for loop points.
+
+### Version 1.0 (2024-01-07)
 
 ## Description
 
@@ -172,3 +184,5 @@ You'll also find two reverb effects: the short reverb, evoking the intimacy of a
 |Controls for the preset select|
 
 Some presets are true to the original Stylophone and some presets take advantage of the additional features of StyloPoly. The presets only affects the controls already available from the GUI. They are not meant to sound like a real piano, harpsichord, clavinet, etc. The preset names are more of a way to describe the timbre.
+
+[Gumroad profile]: https://store.dehlimusikk.no/
