@@ -1,0 +1,13 @@
+{
+    "gain": -16,
+    "normalizeIr": true,
+    "reverbGain": 13,
+    "keyboardColors": {
+        "StyloPoly": [{ "loNote": 38, "hiNote": 76, "color": "none" }],
+        "StyloPoly (Pitch Stretched)": [
+            { "loNote": 0, "hiNote": 37, "color": "FF000000" },
+            { "loNote": 38, "hiNote": 76, "color": "none" },
+            { "loNote": 77, "hiNote": 127, "color": "FF000000" }
+        ]
+    }
+}
