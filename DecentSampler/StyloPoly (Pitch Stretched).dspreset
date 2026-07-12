@@ -278,7 +278,7 @@
           <binding type="control" level="ui" position="19" parameter="VALUE" translation="fixed_value" translationValue="6.00"    /> <!-- Rate -->
           <!-- Lowpass filter -->
           <binding type="control" level="ui" position="20" parameter="VALUE" translation="fixed_value" translationValue="0.00"    /> <!-- On / Off -->
-          <binding type="control" level="ui" position="21" parameter="VALUE" translation="fixed_value" translationValue="20.00"   /> <!-- Frequency -->
+          <binding type="control" level="ui" position="21" parameter="VALUE" translation="fixed_value" translationValue="8000.00" /> <!-- Frequency -->
           <binding type="control" level="ui" position="22" parameter="VALUE" translation="fixed_value" translationValue="1.38"    /> <!-- Resonance -->
           <!-- Reverb -->
           <binding type="control" level="ui" position="23" parameter="VALUE" translation="fixed_value" translationValue="0.00"    /> <!-- On / Off -->
@@ -316,7 +316,7 @@
           <binding type="control" level="ui" position="19" parameter="VALUE" translation="fixed_value" translationValue="6.00"    /> <!-- Rate -->
           <!-- Lowpass filter -->
           <binding type="control" level="ui" position="20" parameter="VALUE" translation="fixed_value" translationValue="0.00"    /> <!-- On / Off -->
-          <binding type="control" level="ui" position="21" parameter="VALUE" translation="fixed_value" translationValue="20.00"   /> <!-- Frequency -->
+          <binding type="control" level="ui" position="21" parameter="VALUE" translation="fixed_value" translationValue="8000.00" /> <!-- Frequency -->
           <binding type="control" level="ui" position="22" parameter="VALUE" translation="fixed_value" translationValue="1.38"    /> <!-- Resonance -->
           <!-- Reverb -->
           <binding type="control" level="ui" position="23" parameter="VALUE" translation="fixed_value" translationValue="0.00"    /> <!-- On / Off -->
@@ -354,7 +354,7 @@
           <binding type="control" level="ui" position="19" parameter="VALUE" translation="fixed_value" translationValue="6.00"    /> <!-- Rate -->
           <!-- Lowpass filter -->
           <binding type="control" level="ui" position="20" parameter="VALUE" translation="fixed_value" translationValue="0.00"    /> <!-- On / Off -->
-          <binding type="control" level="ui" position="21" parameter="VALUE" translation="fixed_value" translationValue="20.00"   /> <!-- Frequency -->
+          <binding type="control" level="ui" position="21" parameter="VALUE" translation="fixed_value" translationValue="8000.00" /> <!-- Frequency -->
           <binding type="control" level="ui" position="22" parameter="VALUE" translation="fixed_value" translationValue="1.38"    /> <!-- Resonance -->
           <!-- Reverb -->
           <binding type="control" level="ui" position="23" parameter="VALUE" translation="fixed_value" translationValue="0.00"    /> <!-- On / Off -->
@@ -392,7 +392,7 @@
           <binding type="control" level="ui" position="19" parameter="VALUE" translation="fixed_value" translationValue="6.00"    /> <!-- Rate -->
           <!-- Lowpass filter -->
           <binding type="control" level="ui" position="20" parameter="VALUE" translation="fixed_value" translationValue="0.00"    /> <!-- On / Off -->
-          <binding type="control" level="ui" position="21" parameter="VALUE" translation="fixed_value" translationValue="20.00"   /> <!-- Frequency -->
+          <binding type="control" level="ui" position="21" parameter="VALUE" translation="fixed_value" translationValue="8000.00" /> <!-- Frequency -->
           <binding type="control" level="ui" position="22" parameter="VALUE" translation="fixed_value" translationValue="1.38"    /> <!-- Resonance -->
           <!-- Reverb -->
           <binding type="control" level="ui" position="23" parameter="VALUE" translation="fixed_value" translationValue="0.00"    /> <!-- On / Off -->
@@ -430,7 +430,7 @@
           <binding type="control" level="ui" position="19" parameter="VALUE" translation="fixed_value" translationValue="6.00"    /> <!-- Rate -->
           <!-- Lowpass filter -->
           <binding type="control" level="ui" position="20" parameter="VALUE" translation="fixed_value" translationValue="0.00"    /> <!-- On / Off -->
-          <binding type="control" level="ui" position="21" parameter="VALUE" translation="fixed_value" translationValue="20.00"   /> <!-- Frequency -->
+          <binding type="control" level="ui" position="21" parameter="VALUE" translation="fixed_value" translationValue="8000.00" /> <!-- Frequency -->
           <binding type="control" level="ui" position="22" parameter="VALUE" translation="fixed_value" translationValue="1.38"    /> <!-- Resonance -->
           <!-- Reverb -->
           <binding type="control" level="ui" position="23" parameter="VALUE" translation="fixed_value" translationValue="0.00"    /> <!-- On / Off -->
@@ -468,7 +468,7 @@
           <binding type="control" level="ui" position="19" parameter="VALUE" translation="fixed_value" translationValue="6.00"    /> <!-- Rate -->
           <!-- Lowpass filter -->
           <binding type="control" level="ui" position="20" parameter="VALUE" translation="fixed_value" translationValue="0.00"    /> <!-- On / Off -->
-          <binding type="control" level="ui" position="21" parameter="VALUE" translation="fixed_value" translationValue="20.00"   /> <!-- Frequency -->
+          <binding type="control" level="ui" position="21" parameter="VALUE" translation="fixed_value" translationValue="8000.00" /> <!-- Frequency -->
           <binding type="control" level="ui" position="22" parameter="VALUE" translation="fixed_value" translationValue="1.38"    /> <!-- Resonance -->
           <!-- Reverb -->
           <binding type="control" level="ui" position="23" parameter="VALUE" translation="fixed_value" translationValue="0.00"    /> <!-- On / Off -->
