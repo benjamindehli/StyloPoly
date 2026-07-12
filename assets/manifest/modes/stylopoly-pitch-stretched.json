@@ -4451,6 +4451,8 @@
     "height": 375,
     "layoutMode": "relative",
     "bgMode": "top_left",
+    "whiteKeyTint": "44555025",
+    "blackKeyTint": "77FFFBE9",
     "tabs": [
       {
         "name": "main",
@@ -4684,9 +4686,9 @@
             },
             "label": "envelope_release",
             "valueType": "float",
-            "min": 0.03,
+            "min": 0.02,
             "max": 1.0,
-            "value": 0.03,
+            "value": 0.02,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
             "skin": {
@@ -4931,8 +4933,7 @@
                 "targetId": "fx_convolution_2",
                 "parameter": "FX_MIX",
                 "factor": 0.01,
-                "effectIndex": 4,
-                "position": 4
+                "effectIndex": 4
               }
             ]
           },
@@ -5163,8 +5164,7 @@
                 "targetId": "fx_convolution_3",
                 "parameter": "FX_MIX",
                 "factor": 0.01,
-                "effectIndex": 5,
-                "position": 5
+                "effectIndex": 5
               }
             ]
           }
@@ -5398,7 +5398,6 @@
                     "parameter": "FX_MIX",
                     "translation": "fixed_value",
                     "effectIndex": 3,
-                    "position": 3,
                     "translationValue": "0"
                   },
                   {
@@ -5443,7 +5442,6 @@
                     "parameter": "FX_MIX",
                     "translation": "fixed_value",
                     "effectIndex": 3,
-                    "position": 3,
                     "translationValue": "1"
                   },
                   {
@@ -5493,7 +5491,7 @@
                     "parameter": "ENABLED",
                     "translation": "fixed_value",
                     "effectIndex": 0,
-                    "translationValue": "0"
+                    "translationValue": false
                   }
                 ]
               },
@@ -5510,7 +5508,7 @@
                     "parameter": "ENABLED",
                     "translation": "fixed_value",
                     "effectIndex": 0,
-                    "translationValue": "1"
+                    "translationValue": true
                   }
                 ]
               }
@@ -5637,7 +5635,7 @@
                     "parameter": "ENABLED",
                     "translation": "fixed_value",
                     "effectIndex": 1,
-                    "translationValue": "0"
+                    "translationValue": false
                   }
                 ]
               },
@@ -5654,7 +5652,7 @@
                     "parameter": "ENABLED",
                     "translation": "fixed_value",
                     "effectIndex": 1,
-                    "translationValue": "1"
+                    "translationValue": true
                   }
                 ]
               }
@@ -6258,7 +6256,7 @@
                     "translation": "fixed_value",
                     "controlIndex": 21,
                     "position": 21,
-                    "translationValue": "20.00"
+                    "translationValue": "8000.00"
                   },
                   {
                     "type": "control",
@@ -6524,7 +6522,7 @@
                     "translation": "fixed_value",
                     "controlIndex": 21,
                     "position": 21,
-                    "translationValue": "20.00"
+                    "translationValue": "8000.00"
                   },
                   {
                     "type": "control",
@@ -6790,7 +6788,7 @@
                     "translation": "fixed_value",
                     "controlIndex": 21,
                     "position": 21,
-                    "translationValue": "20.00"
+                    "translationValue": "8000.00"
                   },
                   {
                     "type": "control",
@@ -7056,7 +7054,7 @@
                     "translation": "fixed_value",
                     "controlIndex": 21,
                     "position": 21,
-                    "translationValue": "20.00"
+                    "translationValue": "8000.00"
                   },
                   {
                     "type": "control",
@@ -7322,7 +7320,7 @@
                     "translation": "fixed_value",
                     "controlIndex": 21,
                     "position": 21,
-                    "translationValue": "20.00"
+                    "translationValue": "8000.00"
                   },
                   {
                     "type": "control",
@@ -7588,7 +7586,7 @@
                     "translation": "fixed_value",
                     "controlIndex": 21,
                     "position": 21,
-                    "translationValue": "20.00"
+                    "translationValue": "8000.00"
                   },
                   {
                     "type": "control",

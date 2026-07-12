@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "format": "dmse-manifest",
-  "library": "StyloPoly",
+  "library": "DecentSampler",
   "gainDb": -16.0,
   "modes": [
     "stylopoly-pitch-stretched",
