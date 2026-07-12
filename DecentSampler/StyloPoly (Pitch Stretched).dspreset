@@ -1019,7 +1019,6 @@
       <sample loNote="74" hiNote="74"  rootNote="74" path="Samples/3/3_4D.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="1" loopEnd="118422" loopStart="54008" loopCrossfade="480" start="0"/>
       <sample loNote="75" hiNote="75"  rootNote="75" path="Samples/3/3_4D#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="1" loopEnd="99419"  loopStart="20694" loopCrossfade="480" start="0"/>
       <sample loNote="76" hiNote="127" rootNote="76" path="Samples/3/3_4E.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="1" loopEnd="103531" loopStart="33892" loopCrossfade="480" start="0"/>
-      <effects/>
     </group>
     <group tags="noise-on" trigger="attack" seqMode="random" seqLength="23" volume="0.5" ampEnvEnabled="false">
       <sample loNote="0" hiNote="127" rootNote="64" path="Samples/NoiseOn/NoiseOn_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0" seqPosition="1"/>
@@ -1193,7 +1192,6 @@
       <sample loNote="74" hiNote="74"  rootNote="74" path="Samples/3/3_4D.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="1" loopEnd="118422" loopStart="54008" loopCrossfade="480" start="0"/>
       <sample loNote="75" hiNote="75"  rootNote="75" path="Samples/3/3_4D#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="1" loopEnd="99419"  loopStart="20694" loopCrossfade="480" start="0"/>
       <sample loNote="76" hiNote="127" rootNote="76" path="Samples/3/3_4E.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="1" loopEnd="103531" loopStart="33892" loopCrossfade="480" start="0"/>
-      <effects/>
     </group>
   </groups>
   <effects>
