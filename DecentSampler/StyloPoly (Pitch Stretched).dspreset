@@ -88,13 +88,13 @@
       <button x="284" y="86" width="21" height="27" style="image" value="0">
         <state name="output_line-out" mainImage="Resources/button_off.png" hoverImage="Resources/button_off.png" clickImage="Resources/button_on.png">
           <binding type="effect" level="instrument" effectIndex="3" parameter="ENABLED" translation="fixed_value" translationValue="false" />
-          <binding type="effect" level="instrument" position="3" parameter="FX_MIX" translation="fixed_value" translationValue="0" />
+          <binding type="effect" level="instrument" effectIndex="3" parameter="FX_MIX" translation="fixed_value" translationValue="0" />
           <binding type="effect" level="instrument" effectIndex="2" parameter="ENABLED" translation="fixed_value" translationValue="false" />
           <binding type="effect" level="instrument" effectIndex="2" parameter="LEVEL" translation="fixed_value" translationValue="0" />
         </state>
         <state name="output_speaker" mainImage="Resources/button_on.png" hoverImage="Resources/button_on.png" clickImage="Resources/button_off.png">
           <binding type="effect" level="instrument" effectIndex="3" parameter="ENABLED" translation="fixed_value" translationValue="true" />
-          <binding type="effect" level="instrument" position="3" parameter="FX_MIX" translation="fixed_value" translationValue="1" />
+          <binding type="effect" level="instrument" effectIndex="3" parameter="FX_MIX" translation="fixed_value" translationValue="1" />
           <binding type="effect" level="instrument" effectIndex="2" parameter="ENABLED" translation="fixed_value" translationValue="true" />
           <binding type="effect" level="instrument" effectIndex="2" parameter="LEVEL" translation="fixed_value" translationValue="8" />
         </state>
@@ -142,7 +142,7 @@
 
       <!-- Echo mix -->
       <control x="738" y="89" width="18" height="18" parameterName="echo_mix" type="percent" minValue="0" maxValue="100" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_small.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
-        <binding type="effect" level="instrument" position="4" parameter="FX_MIX" factor="0.01" />
+        <binding type="effect" level="instrument" effectIndex="4" parameter="FX_MIX" factor="0.01" />
       </control>
 
       <!-- Noise -->
@@ -204,7 +204,7 @@
 
       <!-- Reverb mix -->
       <control x="738" y="145" width="18" height="18" parameterName="reverb_mix" type="percent" minValue="0" maxValue="100" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_small.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
-        <binding type="effect" level="instrument" position="5" parameter="FX_MIX" factor="0.01" />
+        <binding type="effect" level="instrument" effectIndex="5" parameter="FX_MIX" factor="0.01" />
       </control>
 
 
