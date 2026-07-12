@@ -103,10 +103,10 @@
       <!-- Highpass on/off -->
       <button x="373" y="86" width="21" height="27" style="image" value="0">
         <state name="highpass-filter_off" mainImage="Resources/button_off.png" hoverImage="Resources/button_off.png" clickImage="Resources/button_on.png">
-          <binding type="effect" level="instrument" effectIndex="0" parameter="ENABLED" translation="fixed_value" translationValue="0" />
+          <binding type="effect" level="instrument" effectIndex="0" parameter="ENABLED" translation="fixed_value" translationValue="false" />
         </state>
         <state name="highpass-filter_on" mainImage="Resources/button_on.png" hoverImage="Resources/button_on.png" clickImage="Resources/button_off.png">
-          <binding type="effect" level="instrument" effectIndex="0" parameter="ENABLED" translation="fixed_value" translationValue="1" />
+          <binding type="effect" level="instrument" effectIndex="0" parameter="ENABLED" translation="fixed_value" translationValue="true" />
         </state>
       </button>
 
@@ -165,10 +165,10 @@
       <!-- Lowpass on/off -->
       <button x="373" y="141" width="21" height="27" style="image" value="0">
         <state name="lowpass-filter_off" mainImage="Resources/button_off.png" hoverImage="Resources/button_off.png" clickImage="Resources/button_on.png">
-          <binding type="effect" level="instrument" effectIndex="1" parameter="ENABLED" translation="fixed_value" translationValue="0" />
+          <binding type="effect" level="instrument" effectIndex="1" parameter="ENABLED" translation="fixed_value" translationValue="false" />
         </state>
         <state name="lowpass-filter_on" mainImage="Resources/button_on.png" hoverImage="Resources/button_on.png" clickImage="Resources/button_off.png">
-          <binding type="effect" level="instrument" effectIndex="1" parameter="ENABLED" translation="fixed_value" translationValue="1" />
+          <binding type="effect" level="instrument" effectIndex="1" parameter="ENABLED" translation="fixed_value" translationValue="true" />
         </state>
       </button>
 
