@@ -64,7 +64,7 @@
         <binding type="amp" level="group" position="6" parameter="ENV_SUSTAIN" />
         <binding type="amp" level="group" position="7" parameter="ENV_SUSTAIN" />
       </control>
-      <control x="422" y="33" width="18" height="18" parameterName="envelope_release" type="float" minValue="0.03" maxValue="1.00" textColor="FF000000" value="0.03" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_small.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+      <control x="422" y="33" width="18" height="18" parameterName="envelope_release" type="float" minValue="0.02" maxValue="1.00" textColor="FF000000" value="0.02" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_small.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
         <binding type="amp" level="group" position="0" parameter="ENV_RELEASE" />
         <binding type="amp" level="group" position="1" parameter="ENV_RELEASE" />
         <binding type="amp" level="group" position="2" parameter="ENV_RELEASE" />
