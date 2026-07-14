@@ -8,5 +8,5 @@
 dmse_add_plugin(StyloPoly
     PRODUCT_NAME "StyloPoly"
     PLUGIN_CODE  Styl
-    VERSION      1.0.0
+    VERSION      2.0.0
 )
