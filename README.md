@@ -1,30 +1,48 @@
-# StyloPoly - Version: [1.2]
+# StyloPoly
 
-Date: 2025-01-04
-
-Name: Benjamin Dehli
-
-Profile: [store.dehlimusikk.no][Gumroad profile]
-
-## Included formats
-
-- Decent Sampler
+A Dubreq Stylophone S-1 with some added features
 
 ## Release notes
 
-### Version 1.2 (2025-01-04)
+### Version 2.0.0 (upcoming)
+
+- Added a plugin version. See the section "The plugin version".
+- Adjusted the keyboard colors.
+- Fixed typos in the cutoff values for some patches.
+- Adjusted the minimum envelope release time.
+- The ENABLED parameter now uses true/false values, and effect bindings use effectIndex.
+- Removed empty effects elements.
+
+### Version 1.2.0 (2025-01-04)
 
 - Removed amplitude envelope for one shot samples
 
-### Version 1.1 (2024-02-17)
+### Version 1.1.0 (2024-02-17)
 
 - Improved crossfades for loop points.
 
-### Version 1.0 (2024-01-07)
+### Version 1.0.0 (2024-01-07)
 
-## Description
+- First version released
 
-A Dubreq Stylophone S-1 with some added features
+## Included formats
+
+- VST3 (macOS, Windows and Linux)
+- AU (macOS)
+- Standalone application (macOS, Windows and Linux)
+- Decent Sampler
+
+## The plugin version
+
+The plugin is a self-contained instrument for macOS, Windows and Linux, available as VST3, AU and Standalone.
+Samples, graphics and impulse responses are all embedded in the plugin itself, losslessly compressed, so there are no external files to install or locate.
+Only the samples for the selected preset are loaded into memory, and a fresh instance lets you choose which preset to load before anything is decoded.
+
+The plugin has all the controls and features from the Decent Sampler version, including MIDI learn, the master volume fader with output meter, value readouts for the knobs and full DAW automation.
+On top of that, the plugin version adds:
+
+- Drift wheels next to the pitch and modulation wheels, adding a subtle random pitch and volume drift to each voice.
+- A velocity curve setting in the settings menu.
 
 ## Technical specification
 
@@ -33,6 +51,13 @@ A Dubreq Stylophone S-1 with some added features
 |           **Samples**           |      48 kHz |    24 bit | 1 (mono)   |             163 |  68.90 MB |
 | **Impulse responses (effects)** |      48 kHz |    24 bit | 2 (stereo) |               4 |   3.60 MB |
 | **Impulse responses (speaker)** |      48 kHz |    24 bit | 1 (mono)   |               1 |  66.00 KB |
+
+## Instrument presets
+
+- StyloPoly
+  - The regular preset, with the samples mapped to their original range.
+- StyloPoly (Pitch Stretched)
+  - The samples are stretched across the entire keyboard, far below and above the original Stylophone range.
 
 ## User Interface
 
@@ -184,5 +209,12 @@ You'll also find two reverb effects: the short reverb, evoking the intimacy of a
 |Controls for the preset select|
 
 Some presets are true to the original Stylophone and some presets take advantage of the additional features of StyloPoly. The presets only affects the controls already available from the GUI. They are not meant to sound like a real piano, harpsichord, clavinet, etc. The preset names are more of a way to describe the timbre.
+
+## About this repository
+
+This repository contains the source for both the Decent Sampler library (the DecentSampler folder) and the plugin version.
+The plugin is a thin wrapper around the shared Dehli Musikk sampler engine, and a converter translates the Decent Sampler library into the engine's native preset format at build time.
+The audio files are not part of this repository, since the samples are a paid product.
+The full version is available from [store.dehlimusikk.no][Gumroad profile].
 
 [Gumroad profile]: https://store.dehlimusikk.no/
