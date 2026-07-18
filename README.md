@@ -4,7 +4,7 @@ A Dubreq Stylophone S-1 with some added features
 
 ## Release notes
 
-### Version 2.0.0 (2026-07-18)
+### Version 2.0.0 (2026-07-19)
 
 - Added a plugin version. See the section "The plugin version".
 - Adjusted the keyboard colors.
