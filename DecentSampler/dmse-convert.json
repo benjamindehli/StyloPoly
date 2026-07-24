@@ -4,6 +4,10 @@
     "reverbGain": 13,
     "whiteKeyTint": "44555025",
     "blackKeyTint": "77FFFBE9",
+    "overlay": {
+        "default": "Resources/overlay_default.png"
+    },
+    "overlayScope": "instrument",
     "keyboardColors": {
         "StyloPoly": [{ "loNote": 38, "hiNote": 76, "color": "none" }],
         "StyloPoly (Pitch Stretched)": [
