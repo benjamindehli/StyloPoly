@@ -1,5 +1,7 @@
 # StyloPoly
 
+**[Product page and documentation](https://benjamindehli.github.io/StyloPoly/)**
+
 A Dubreq Stylophone S-1 with some added features
 
 ## Release notes
