@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
     <loc>https://benjamindehli.github.io/StyloPoly/</loc>
     <lastmod>2026-08-01</lastmod>
+  </url>
+  <url>
+    <loc>https://benjamindehli.github.io/StyloPoly/video/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/H_-g8gjE0EM/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Stylophone sample plugin (StyloPoly)</video:title>
+      <video:description>A demonstration of the StyloPoly library for Decent Sampler.</video:description>
+      <video:player_loc>https://www.youtube.com/embed/H_-g8gjE0EM</video:player_loc>
+      <video:publication_date>2024-01-07T12:00:00+01:00</video:publication_date>
+    </video:video>
   </url>
 </urlset>
