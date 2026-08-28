@@ -33,22 +33,37 @@
   "@context": "https://schema.org",
   "@graph": [
     {
+      "@type": "WebSite",
+      "@id": "https://benjamindehli.github.io/StyloPoly/#website",
+      "name": "StyloPoly",
+      "url": "https://benjamindehli.github.io/StyloPoly/",
+      "description": "Product page and documentation for StyloPoly, a sample instrument by Dehli Musikk.",
+      "inLanguage": "en",
+      "author": {
+        "@id": "https://musicbrainz.org/artist/56639e59-2bb5-40bd-9d5a-97d964298b6f"
+      },
+      "publisher": {
+        "@id": "https://www.dehlimusikk.no/"
+      },
+      "license": "https://www.gnu.org/licenses/gpl-3.0.html",
+      "about": {
+        "@id": "https://www.dehlimusikk.no/products/stylopoly/#product"
+      },
+      "sameAs": "https://github.com/benjamindehli/StyloPoly"
+    },
+    {
       "@type": "SoftwareApplication",
-      "@id": "https://store.dehlimusikk.no/l/stylopoly",
+      "@id": "https://www.dehlimusikk.no/products/stylopoly/#product",
       "name": "StyloPoly",
       "description": "StyloPoly: A Dubreq Stylophone S-1 with some added features",
       "url": "https://benjamindehli.github.io/StyloPoly/",
       "applicationCategory": "MultimediaApplication",
       "applicationSubCategory": "Sample library / virtual instrument",
       "author": {
-        "@type": "Organization",
-        "name": "Dehli Musikk",
-        "url": "https://www.dehlimusikk.no/"
+        "@id": "https://musicbrainz.org/artist/56639e59-2bb5-40bd-9d5a-97d964298b6f"
       },
       "publisher": {
-        "@type": "Organization",
-        "name": "Dehli Musikk",
-        "url": "https://www.dehlimusikk.no/"
+        "@id": "https://www.dehlimusikk.no/"
       },
       "operatingSystem": "macOS, Windows, Linux",
       "softwareVersion": "2.1.0",
@@ -56,31 +71,21 @@
       "image": "https://benjamindehli.github.io/StyloPoly/img/screenshots-stylo-poly.webp",
       "screenshot": [
         "https://benjamindehli.github.io/StyloPoly/img/screenshots-stylo-poly.webp",
-        "https://benjamindehli.github.io/StyloPoly/img/screenshots-stylo-poly.webp",
-        "https://benjamindehli.github.io/StyloPoly/img/screenshots-keyboard.webp",
         "https://benjamindehli.github.io/StyloPoly/img/screenshots-keyboard.webp",
         "https://benjamindehli.github.io/StyloPoly/img/screenshots-envelope.webp",
-        "https://benjamindehli.github.io/StyloPoly/img/screenshots-envelope.webp",
-        "https://benjamindehli.github.io/StyloPoly/img/screenshots-mixer.webp",
         "https://benjamindehli.github.io/StyloPoly/img/screenshots-mixer.webp",
         "https://benjamindehli.github.io/StyloPoly/img/screenshots-noise.webp",
-        "https://benjamindehli.github.io/StyloPoly/img/screenshots-noise.webp",
-        "https://benjamindehli.github.io/StyloPoly/img/screenshots-vibrato.webp",
         "https://benjamindehli.github.io/StyloPoly/img/screenshots-vibrato.webp",
         "https://benjamindehli.github.io/StyloPoly/img/screenshots-output.webp",
-        "https://benjamindehli.github.io/StyloPoly/img/screenshots-output.webp",
-        "https://benjamindehli.github.io/StyloPoly/img/screenshots-high-pass-filter.webp",
         "https://benjamindehli.github.io/StyloPoly/img/screenshots-high-pass-filter.webp",
         "https://benjamindehli.github.io/StyloPoly/img/screenshots-low-pass-filter.webp",
-        "https://benjamindehli.github.io/StyloPoly/img/screenshots-low-pass-filter.webp",
-        "https://benjamindehli.github.io/StyloPoly/img/screenshots-echo.webp",
         "https://benjamindehli.github.io/StyloPoly/img/screenshots-echo.webp",
         "https://benjamindehli.github.io/StyloPoly/img/screenshots-reverb.webp",
-        "https://benjamindehli.github.io/StyloPoly/img/screenshots-reverb.webp",
-        "https://benjamindehli.github.io/StyloPoly/img/screenshots-preset.webp",
         "https://benjamindehli.github.io/StyloPoly/img/screenshots-preset.webp"
       ],
       "sameAs": [
+        "https://www.dehlimusikk.no/products/stylopoly/",
+        "https://www.dehlimusikk.no/en/products/stylopoly/",
         "https://store.dehlimusikk.no/l/stylopoly",
         "https://dehlimusikk.gumroad.com/l/stylopoly",
         "https://www.cylex.no/bedrift-produkt/stylopoly_223142.html",
@@ -101,6 +106,18 @@
           "description": "Pay what you want, from $9.99"
         }
       }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://musicbrainz.org/artist/56639e59-2bb5-40bd-9d5a-97d964298b6f",
+      "name": "Benjamin Dehli",
+      "url": "https://www.dehlimusikk.no/"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.dehlimusikk.no/",
+      "name": "Dehli Musikk",
+      "url": "https://www.dehlimusikk.no/"
     }
   ]
 }
