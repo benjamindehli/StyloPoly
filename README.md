@@ -85,8 +85,7 @@ This version of StyloPoly is an instrument preset / sample library for Decent Sa
 |:--:|
 |Overview|
 
-The user interface offers precise control over every aspect of the instrument and effects.
-Explore parameters to refine your sound, including control over the audio mixer, envelope, pitch modulation with LFOs, high pass and low pass filters, velocity/dynamics, speaker simulator and the immersive effects of echo and reverb.
+The controls are an audio mixer, an envelope, pitch modulation with LFOs, high pass and low pass filters, velocity and dynamics, a speaker simulator, and echo and reverb.
 
 ### Keyboard
 
@@ -105,8 +104,6 @@ Explore parameters to refine your sound, including control over the audio mixer,
 |![Controls for the envelope settings](/Screenshots/envelope.png)|
 |:--:|
 |Controls for the envelope settings|
-
-Shape your sound precisely with the Attack, Decay, Sustain, and Release parameters. Whether you desire a punchy, staccato tone or a smooth, lingering ambiance, the ADSR envelope allows you to tailor the dynamics to your liking.
 
 - Attack
   - Attack time of the amplitude envelope for the three voices
@@ -198,8 +195,6 @@ These effects are achieved using carefully crafted impulse responses. The echo e
 |:--:|
 |Controls for the tape echo impulse response|
 
-Select from two distinctive echo options: the short echo, delivering a classic slapback effect, and the long echo, characterized by a slower decay and numerous repeats.
-
 - Off / On
   - Turns the echo on and off
 - Short / Long
@@ -212,8 +207,6 @@ Select from two distinctive echo options: the short echo, delivering a classic s
 |![Controls for the room reverb impulse response](/Screenshots/reverb.png)|
 |:--:|
 |Controls for the room reverb impulse response|
-
-You'll also find two reverb effects: the short reverb, evoking the intimacy of a small room, and the long reverb, enveloping your sound in the vastness of a spacious environment.
 
 - Off / On
   - Turns the reverb on and off
