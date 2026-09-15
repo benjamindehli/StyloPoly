@@ -1,0 +1,320 @@
+# StyloPoly
+
+> StyloPoly: a Dubreq Stylophone S-1 made polyphonic, blending its three voices with noise, vibrato and filters. For VST3, AU and Decent Sampler.
+
+A sample instrument by Dehli Musikk. This is the markdown version of https://benjamindehli.github.io/StyloPoly/, generated from the repository README.
+
+## Key facts
+
+- Plugin: VST3, AU and Standalone for macOS
+- Decent Sampler: macOS, Windows and Linux
+- Version: 2.1.0 (2026-08-01)
+- Price: Pay what you want, from $9.99
+- Sample rate: 48 kHz
+- Bit depth: 24 bit
+- Samples: 163 files
+- Sample content: 68.9 MB
+
+## Links
+
+- [Product page](https://benjamindehli.github.io/StyloPoly/)
+- [StyloPoly at Dehli Musikk](https://www.dehlimusikk.no/en/products/stylopoly/)
+- [Get it](https://store.dehlimusikk.no/l/stylopoly)
+- [Source on GitHub](https://github.com/benjamindehli/StyloPoly)
+- [Stylophone sample plugin (StyloPoly)](https://benjamindehli.github.io/StyloPoly/video/)
+
+## Video chapters
+
+- [0:00 Stylophone 1](https://benjamindehli.github.io/StyloPoly/video/?t=0)
+- [0:05 Stylophone 1 Vibrato](https://benjamindehli.github.io/StyloPoly/video/?t=5)
+- [0:09 Stylophone 2](https://benjamindehli.github.io/StyloPoly/video/?t=9)
+- [0:12 Stylophone 2 Vibrato](https://benjamindehli.github.io/StyloPoly/video/?t=12)
+- [0:16 Stylophone 3](https://benjamindehli.github.io/StyloPoly/video/?t=16)
+- [0:20 Stylophone 3 Vibrato](https://benjamindehli.github.io/StyloPoly/video/?t=20)
+- [0:24 Default](https://benjamindehli.github.io/StyloPoly/video/?t=24)
+- [1:02 Dirty StolyPoly](https://benjamindehli.github.io/StyloPoly/video/?t=62)
+- [2:01 Piano](https://benjamindehli.github.io/StyloPoly/video/?t=121)
+- [2:25 Harp](https://benjamindehli.github.io/StyloPoly/video/?t=145)
+- [3:12 Harpsichord](https://benjamindehli.github.io/StyloPoly/video/?t=192)
+- [3:40 Clavinet](https://benjamindehli.github.io/StyloPoly/video/?t=220)
+- [4:20 Pad](https://benjamindehli.github.io/StyloPoly/video/?t=260)
+- [5:58 Strings](https://benjamindehli.github.io/StyloPoly/video/?t=358)
+- [7:22 Combo Organ](https://benjamindehli.github.io/StyloPoly/video/?t=442)
+- [8:24 Flutes](https://benjamindehli.github.io/StyloPoly/video/?t=504)
+- [8:43 Bright](https://benjamindehli.github.io/StyloPoly/video/?t=523)
+- [9:13 Space Oboe](https://benjamindehli.github.io/StyloPoly/video/?t=553)
+
+## Frequently asked questions
+
+### What is StyloPoly?
+
+StyloPoly: a Dubreq Stylophone S-1 made polyphonic, blending its three voices with noise, vibrato and filters. For VST3, AU and Decent Sampler.
+
+### Which formats does StyloPoly come in?
+
+StyloPoly is available as VST3, AU and Standalone for macOS, and as a Decent Sampler library for macOS, Windows and Linux.
+
+### Does StyloPoly run on Windows or Linux?
+
+The plugin version is released for macOS only. On Windows and Linux, the Decent Sampler version of StyloPoly covers the same instrument.
+
+### Does StyloPoly work in Logic Pro and Ableton Live?
+
+Yes. StyloPoly is available as both VST3 and AU, so it loads in any macOS host that reads those formats, including Logic Pro, Ableton Live, Cubase, Reaper and Studio One.
+
+### Do I need Decent Sampler to use StyloPoly?
+
+Not for the plugin version. It is a self-contained instrument with its samples embedded, so there are no external files to install or locate. The Decent Sampler version is a sample library, and that one needs the free Decent Sampler application.
+
+### What sample rate and bit depth is StyloPoly recorded at?
+
+The samples are 48 kHz, 24 bit.
+
+### How many samples does StyloPoly contain?
+
+163 sample files, 68.9 MB of audio. Impulse responses for the effects are not counted in that figure.
+
+### How much does StyloPoly cost?
+
+StyloPoly is pay what you want, from $9.99, so the price shown is the minimum rather than a fixed one.
+
+### Where can I download StyloPoly?
+
+From the Dehli Musikk store at https://store.dehlimusikk.no/l/stylopoly.
+
+### Is the source code for StyloPoly available?
+
+Yes. The repository is public at https://github.com/benjamindehli/StyloPoly and licensed under GPL-3.0. The audio files are not in the repository, because the samples are a paid product.
+
+---
+
+A Dubreq Stylophone S-1 with some added features
+
+## Release notes
+
+### Version 2.1.0 (2026-08-01)
+
+The changes in this release apply to the plugin version only. The DecentSampler version is unchanged.
+
+- Added a translucent overlay graphic on top of the interface.
+- Keys that are hovered or held on the keyboard are now shaded in a neutral way instead of turning yellow:
+  - White keys turn darker.
+  - Black keys turn brighter.
+- The computer keyboard keeps playing notes even while you adjust a control with the mouse.
+
+### Version 2.0.0 (2026-07-19)
+
+- Added a plugin version. See the section "The plugin version".
+- Adjusted the keyboard colors.
+- Fixed typos in the cutoff values for some patches.
+- Adjusted the minimum envelope release time.
+- The ENABLED parameter now uses true/false values, and effect bindings use effectIndex.
+- Removed empty effects elements.
+
+### Version 1.2.0 (2025-01-04)
+
+- Removed amplitude envelope for one shot samples
+
+### Version 1.1.0 (2024-02-17)
+
+- Improved crossfades for loop points.
+
+### Version 1.0.0 (2024-01-07)
+
+- First version released
+
+## Included formats
+
+- VST3 (macOS)
+- AU (macOS)
+- Standalone application (macOS)
+- Decent Sampler (macOS, Windows and Linux)
+
+The plugin version is currently released for macOS only.
+Windows and Linux versions are planned.
+Until then, the Decent Sampler version covers those platforms.
+
+## The plugin version
+
+The plugin is a self-contained instrument, available as VST3, AU and Standalone.
+Samples, graphics and impulse responses are all embedded in the plugin itself, losslessly compressed, so there are no external files to install or locate.
+Only the samples for the selected preset are loaded into memory, and a fresh instance lets you choose which preset to load before anything is decoded.
+
+The plugin has all the controls and features from the Decent Sampler version, including MIDI learn, the master volume fader with output meter, value readouts for the knobs and full DAW automation.
+On top of that, the plugin version adds:
+
+- Drift wheels next to the pitch and modulation wheels, adding a subtle random pitch and volume drift to each voice.
+- A velocity curve setting in the settings menu.
+
+## The Decent Sampler version
+
+This version of StyloPoly is an instrument preset / sample library for Decent Sampler. If you're new to Decent Sampler, I recommend checking out [this guide][Decent Sampler guide] first.
+
+## Technical specification
+
+|                                 | Sample rate | Bit depth | Channels   | Number of files | File size |
+|--------------------------------:|------------:|----------:|------------|----------------:|----------:|
+|           **Samples**           |      48 kHz |    24 bit | 1 (mono)   |             163 |  68.90 MB |
+| **Impulse responses (effects)** |      48 kHz |    24 bit | 2 (stereo) |               4 |   3.60 MB |
+| **Impulse responses (speaker)** |      48 kHz |    24 bit | 1 (mono)   |               1 |  66.00 KB |
+
+## Instrument presets
+
+- StyloPoly
+  - The regular preset, with the samples mapped to their original range.
+- StyloPoly (Pitch Stretched)
+  - The samples are stretched across the entire keyboard, far below and above the original Stylophone range.
+
+## User Interface
+
+|![Overview](https://benjamindehli.github.io/StyloPoly/img/screenshots-stylo-poly.webp)|
+|:--:|
+|Overview|
+
+The controls are an audio mixer, an envelope, pitch modulation with LFOs, high pass and low pass filters, velocity and dynamics, a speaker simulator, and echo and reverb.
+
+### Keyboard
+
+|![Controls for the keyboard settings](https://benjamindehli.github.io/StyloPoly/img/screenshots-keyboard.webp)|
+|:--:|
+|Controls for the keyboard settings|
+
+- Mono / Poly
+  - Mono: Plays only one note at the time, like the original Stylophone
+  - Poly: Plays multiple notes at the time
+- Static / Dynamic
+  - Determines whether the velocity should affect the volume of the samples
+
+### Envelope
+
+|![Controls for the envelope settings](https://benjamindehli.github.io/StyloPoly/img/screenshots-envelope.webp)|
+|:--:|
+|Controls for the envelope settings|
+
+- Attack
+  - Attack time of the amplitude envelope for the three voices
+- Decay
+  - Decay time of the amplitude envelope for the three voices
+- Sustain
+  - Sustain level of the amplitude envelope for the three voices
+- Release
+  - Release time of the amplitude envelope for the three voices
+
+### Samples volume
+
+#### Mixer
+
+|![Mixer controls](https://benjamindehli.github.io/StyloPoly/img/screenshots-mixer.webp)|
+|:--:|
+|Mixer controls|
+
+The original Stylophone only lets you select one voice at a time, but with StyloPoly you can blend between all the three voices at the same time.
+
+- Low
+  - The sound of the Stylophone with the voice selector in position 1
+- Middle
+  - The sound of the Stylophone with the voice selector in position 2
+- High
+  - The sound of the Stylophone with the voice selector in position 3
+
+#### Noise
+
+|![Noise controls](https://benjamindehli.github.io/StyloPoly/img/screenshots-noise.webp)|
+|:--:|
+|Noise controls|
+
+- Attack
+  - Pops and crackles when the stylus hits the "keyboard"
+- Release
+  - Pops and crackles when the stylus releases from the "keyboard"
+
+### Vibrato
+
+|![Controls for the vibrato settings](https://benjamindehli.github.io/StyloPoly/img/screenshots-vibrato.webp)|
+|:--:|
+|Controls for the vibrato settings|
+
+The depth and rate knobs enable you to modulate the pitch of the sound with the desired depth and rate using a Low-Frequency Oscillator (LFO). With both controls in middle position you have approximately the same vibrato as the original Stylophone.
+
+- Depth
+  - Adjust the depth to introduce subtle or pronounced variations in pitch
+- Rate
+  - Determines the speed at which the modulation occurs
+
+### Output
+
+|![Controls for the output settings](https://benjamindehli.github.io/StyloPoly/img/screenshots-output.webp)|
+|:--:|
+|Controls for the output settings|
+
+- Line out
+  - The direct sound of the line output
+- Speaker
+  - The sound of the internal speaker miced with a Shure SM57
+
+### High Pass Filter and Low Pass Filter
+
+|![Controls for the high pass filter](https://benjamindehli.github.io/StyloPoly/img/screenshots-high-pass-filter.webp)|
+|:--:|
+|Controls for the high pass filter|
+
+|![Controls for the low pass filter](https://benjamindehli.github.io/StyloPoly/img/screenshots-low-pass-filter.webp)|
+|:--:|
+|Controls for the low pass filter|
+
+StyloPoly has a high pass filter and a low pass filter. The high pass filter ranges from 20 Hz to 2000 Hz and the low pass filter ranges from 200 Hz to 22000 Hz.
+
+- Off / On
+  - Turns on or off the filter
+- Frequency
+  - Cutoff frequency for the filter
+- Resonance
+  - Amount of resonance at cutoff frequency
+
+### Effects
+
+These effects are achieved using carefully crafted impulse responses. The echo effect employs a Fulltone Tube Tape Echo recorded twice for stereo, while the reverb effect draws from a Chase Bliss Audio & Meris CXM 1978 reverb pedal with a room setting.
+
+#### Echo
+
+|![Controls for the tape echo impulse response](https://benjamindehli.github.io/StyloPoly/img/screenshots-echo.webp)|
+|:--:|
+|Controls for the tape echo impulse response|
+
+- Off / On
+  - Turns the echo on and off
+- Short / Long
+  - Switches between a short slapback echo and a long echo with slow repeats and high feedback
+- Mix
+  - Mix between direct signal and echo signal
+
+#### Reverb
+
+|![Controls for the room reverb impulse response](https://benjamindehli.github.io/StyloPoly/img/screenshots-reverb.webp)|
+|:--:|
+|Controls for the room reverb impulse response|
+
+- Off / On
+  - Turns the reverb on and off
+- Short / Long
+  - Switches between a short/small room reverb and a long/big room reverb
+- Mix
+  - Mix between direct signal and reverb signal
+
+### Preset
+
+|![Controls for the preset select](https://benjamindehli.github.io/StyloPoly/img/screenshots-preset.webp)|
+|:--:|
+|Controls for the preset select|
+
+Some presets are true to the original Stylophone and some presets take advantage of the additional features of StyloPoly. The presets only affects the controls already available from the GUI. They are not meant to sound like a real piano, harpsichord, clavinet, etc. The preset names are more of a way to describe the timbre.
+
+## About this repository
+
+This repository contains the source for both the Decent Sampler library (the DecentSampler folder) and the plugin version.
+The plugin is a thin wrapper around the shared Dehli Musikk sampler engine, and a converter translates the Decent Sampler library into the engine's native preset format at build time.
+The audio files are not part of this repository, since the samples are a paid product.
+The full version is available from [store.dehlimusikk.no][Gumroad profile].
+
+[Gumroad profile]: https://store.dehlimusikk.no/
+[Decent Sampler guide]: https://www.decentsamples.com/how-to-use-decent-sampler/
