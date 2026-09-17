@@ -1,9 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
         xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
     <loc>https://benjamindehli.github.io/StyloPoly/</loc>
     <lastmod>2026-09-17</lastmod>
+    <image:image>
+      <image:loc>https://benjamindehli.github.io/StyloPoly/img/screenshots-stylo-poly.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://benjamindehli.github.io/StyloPoly/img/screenshots-keyboard.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://benjamindehli.github.io/StyloPoly/img/screenshots-envelope.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://benjamindehli.github.io/StyloPoly/img/screenshots-mixer.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://benjamindehli.github.io/StyloPoly/img/screenshots-noise.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://benjamindehli.github.io/StyloPoly/img/screenshots-vibrato.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://benjamindehli.github.io/StyloPoly/img/screenshots-output.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://benjamindehli.github.io/StyloPoly/img/screenshots-high-pass-filter.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://benjamindehli.github.io/StyloPoly/img/screenshots-low-pass-filter.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://benjamindehli.github.io/StyloPoly/img/screenshots-echo.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://benjamindehli.github.io/StyloPoly/img/screenshots-reverb.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://benjamindehli.github.io/StyloPoly/img/screenshots-preset.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://benjamindehli.github.io/StyloPoly/video/</loc>
