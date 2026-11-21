@@ -5117,6 +5117,7 @@
         "buttons": [
           {
             "id": "btn_0",
+            "label": "Voices",
             "rect": {
               "x": 57,
               "y": 80,
@@ -5243,6 +5244,7 @@
           },
           {
             "id": "btn_1",
+            "label": "Dynamics",
             "rect": {
               "x": 126,
               "y": 80,
@@ -5287,6 +5289,7 @@
           },
           {
             "id": "btn_2",
+            "label": "Output",
             "rect": {
               "x": 284,
               "y": 136,
@@ -5381,6 +5384,7 @@
           },
           {
             "id": "btn_3",
+            "label": "Highpass filter",
             "rect": {
               "x": 373,
               "y": 136,
@@ -5427,6 +5431,7 @@
           },
           {
             "id": "btn_4",
+            "label": "Echo",
             "rect": {
               "x": 600,
               "y": 136,
@@ -5473,6 +5478,7 @@
           },
           {
             "id": "btn_5",
+            "label": "Echo length",
             "rect": {
               "x": 669,
               "y": 136,
@@ -5519,6 +5525,7 @@
           },
           {
             "id": "btn_6",
+            "label": "Lowpass filter",
             "rect": {
               "x": 373,
               "y": 191,
@@ -5565,6 +5572,7 @@
           },
           {
             "id": "btn_7",
+            "label": "Reverb",
             "rect": {
               "x": 600,
               "y": 191,
@@ -5611,6 +5619,7 @@
           },
           {
             "id": "btn_8",
+            "label": "Reverb length",
             "rect": {
               "x": 669,
               "y": 191,
@@ -5660,6 +5669,7 @@
         "menus": [
           {
             "id": "menu_0",
+            "label": "Patch",
             "rect": {
               "x": 80,
               "y": 236,

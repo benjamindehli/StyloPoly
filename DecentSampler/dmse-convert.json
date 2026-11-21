@@ -8,6 +8,18 @@
         "default": "Resources/overlay_default.png"
     },
     "overlayScope": "instrument",
+    "labels": {
+        "btn_0": "Voices",
+        "btn_1": "Dynamics",
+        "btn_2": "Output",
+        "btn_3": "Highpass filter",
+        "btn_4": "Echo",
+        "btn_5": "Echo length",
+        "btn_6": "Lowpass filter",
+        "btn_7": "Reverb",
+        "btn_8": "Reverb length",
+        "menu_0": "Patch"
+    },
     "keyboardColors": {
         "StyloPoly": [{ "loNote": 38, "hiNote": 76, "color": "none" }],
         "StyloPoly (Pitch Stretched)": [
