@@ -4466,7 +4466,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "envelope_attack",
+            "label": "Attack",
             "valueType": "float",
             "min": 0.0,
             "max": 2.0,
@@ -4527,7 +4527,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "envelope_decay",
+            "label": "Decay",
             "valueType": "float",
             "min": 0.12,
             "max": 3.0,
@@ -4588,7 +4588,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "envelope_sustain",
+            "label": "Sustain",
             "valueType": "float",
             "min": 0.0,
             "max": 1.0,
@@ -4649,7 +4649,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "envelope_release",
+            "label": "Release",
             "valueType": "float",
             "min": 0.02,
             "max": 1.0,
@@ -4710,7 +4710,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "voice-low_volume",
+            "label": "Volume low voice",
             "valueType": "float",
             "min": 0.0,
             "max": 2.0,
@@ -4741,7 +4741,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "voice-middle_volume",
+            "label": "Volume middle voice",
             "valueType": "float",
             "min": 0.0,
             "max": 2.0,
@@ -4772,7 +4772,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "voice-high_volume",
+            "label": "Volume high voice",
             "valueType": "float",
             "min": 0.0,
             "max": 2.0,
@@ -4803,7 +4803,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "highpass-filter_frequency",
+            "label": "Highpass frequency",
             "min": 20.0,
             "max": 2000.0,
             "value": 20.0,
@@ -4833,7 +4833,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "highpass-filter_resonance",
+            "label": "Highpass resonance",
             "min": 0.75,
             "max": 2.0,
             "value": 1.38,
@@ -4863,7 +4863,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "echo_mix",
+            "label": "Echo mix",
             "valueType": "percent",
             "min": 0.0,
             "max": 100.0,
@@ -4895,7 +4895,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "noise-on_volume",
+            "label": "Noise attack",
             "valueType": "float",
             "min": 0.0,
             "max": 2.0,
@@ -4936,7 +4936,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "noise-off_volume",
+            "label": "Noise release",
             "valueType": "float",
             "min": 0.0,
             "max": 2.0,
@@ -4967,7 +4967,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "vibrato_depth",
+            "label": "Vibrato depth",
             "valueType": "float",
             "min": 0.0,
             "max": 0.7,
@@ -4998,7 +4998,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "vibrato_rate",
+            "label": "Vibrato rate",
             "valueType": "float",
             "min": 0.0,
             "max": 12.0,
@@ -5029,7 +5029,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "lowpass-filter_frequency",
+            "label": "Lowpass frequency",
             "min": 200.0,
             "max": 8000.0,
             "value": 8000.0,
@@ -5059,7 +5059,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "lowpass-filter_resonance",
+            "label": "Lowpass resonance",
             "min": 0.75,
             "max": 2.0,
             "value": 1.38,
@@ -5089,7 +5089,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "reverb_mix",
+            "label": "Reverb mix",
             "valueType": "percent",
             "min": 0.0,
             "max": 100.0,
