@@ -1,0 +1,190 @@
+{
+    "scale": 2,
+    "shots": [
+        {
+            "file": "echo.png",
+            "mode": "StyloPoly (Pitch Stretched)",
+            "crop": {
+                "x": 585,
+                "y": 111,
+                "width": 185,
+                "height": 60
+            },
+            "set": {
+                "Echo mix": 41.6667,
+                "btn_4": 1,
+                "btn_5": 1
+            }
+        },
+        {
+            "file": "envelope.png",
+            "mode": "StyloPoly (Pitch Stretched)",
+            "crop": {
+                "x": 200,
+                "y": 54,
+                "width": 254,
+                "height": 61
+            },
+            "set": {
+                "Attack": 0.0667,
+                "Decay": 1.32,
+                "Sustain": 0.7333,
+                "Release": 0.2813
+            }
+        },
+        {
+            "file": "high-pass-filter.png",
+            "mode": "StyloPoly (Pitch Stretched)",
+            "crop": {
+                "x": 358,
+                "y": 111,
+                "width": 185,
+                "height": 60
+            },
+            "set": {
+                "Highpass frequency": 482.0,
+                "Highpass resonance": 1.1667,
+                "btn_3": 1
+            }
+        },
+        {
+            "file": "keyboard.png",
+            "mode": "StyloPoly (Pitch Stretched)",
+            "crop": {
+                "x": 42,
+                "y": 54,
+                "width": 146,
+                "height": 61
+            },
+            "set": {
+                "btn_0": 0,
+                "btn_1": 1
+            }
+        },
+        {
+            "file": "low-pass-filter.png",
+            "mode": "StyloPoly (Pitch Stretched)",
+            "crop": {
+                "x": 358,
+                "y": 167,
+                "width": 185,
+                "height": 60
+            },
+            "set": {
+                "Lowpass frequency": 3320.0,
+                "Lowpass resonance": 1.6667,
+                "btn_6": 1
+            }
+        },
+        {
+            "file": "mixer.png",
+            "mode": "StyloPoly (Pitch Stretched)",
+            "crop": {
+                "x": 42,
+                "y": 111,
+                "width": 185,
+                "height": 60
+            },
+            "set": {
+                "Volume low voice": 1.0667,
+                "Volume middle voice": 0.3667,
+                "Volume high voice": 0.8
+            }
+        },
+        {
+            "file": "noise.png",
+            "mode": "StyloPoly (Pitch Stretched)",
+            "crop": {
+                "x": 42,
+                "y": 167,
+                "width": 116,
+                "height": 60
+            },
+            "set": {
+                "Noise attack": 0.7,
+                "Noise release": 0.4667
+            }
+        },
+        {
+            "file": "output.png",
+            "mode": "StyloPoly (Pitch Stretched)",
+            "crop": {
+                "x": 236,
+                "y": 111,
+                "width": 112,
+                "height": 60
+            }
+        },
+        {
+            "file": "preset.png",
+            "mode": "StyloPoly (Pitch Stretched)",
+            "crop": {
+                "x": 6,
+                "y": 233,
+                "width": 351,
+                "height": 29
+            },
+            "set": {
+                "menu_0": 17
+            }
+        },
+        {
+            "file": "reverb.png",
+            "mode": "StyloPoly (Pitch Stretched)",
+            "crop": {
+                "x": 585,
+                "y": 167,
+                "width": 185,
+                "height": 60
+            },
+            "set": {
+                "Reverb mix": 18.3333,
+                "btn_7": 1
+            }
+        },
+        {
+            "file": "stylo-poly.png",
+            "mode": "StyloPoly",
+            "window": true,
+            "set": {
+                "Sustain": 0.3667,
+                "Release": 0.167,
+                "Volume low voice": 1.3,
+                "Volume middle voice": 0.1333,
+                "Volume high voice": 0.6,
+                "Highpass frequency": 251.0,
+                "Highpass resonance": 1.3125,
+                "Echo mix": 11.6667,
+                "Noise attack": 1.2667,
+                "Noise release": 0.7667,
+                "Vibrato depth": 0.2217,
+                "Vibrato rate": 7.4,
+                "Lowpass frequency": 4880.0,
+                "Lowpass resonance": 1.4583,
+                "Reverb mix": 35.0,
+                "btn_3": 1,
+                "btn_4": 1,
+                "btn_5": 1,
+                "btn_6": 1,
+                "btn_7": 1,
+                "pitchDrift": 0.37,
+                "volumeDrift": 0.155,
+                "Mod wheel": 41
+            }
+        },
+        {
+            "file": "vibrato.png",
+            "mode": "StyloPoly (Pitch Stretched)",
+            "crop": {
+                "x": 200,
+                "y": 167,
+                "width": 116,
+                "height": 60
+            },
+            "set": {
+                "Vibrato depth": 0.1517,
+                "Vibrato rate": 4.8
+            }
+        }
+    ]
+}
