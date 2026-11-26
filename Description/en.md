@@ -4,7 +4,7 @@ Alongside the mixer sit an ADSR envelope, vibrato with depth and rate, roughly m
 
 A tape echo and a room reverb finish the chain, both from impulse responses. The preset list runs from faithful Stylophone tones to sounds the hardware cannot make, and a second mode stretches the samples far above and below the original range.
 
-163 samples at 48 kHz / 24-bit, embedded in the plugin as lossless FLAC.
+163 samples at 48 kHz / 24-bit, stored as lossless FLAC in one sample file that the installer puts in place.
 
 ## Features
 
@@ -17,4 +17,4 @@ A tape echo and a room reverb finish the chain, both from impulse responses. The
 - Tape echo and room reverb impulse responses.
 - Pitch Stretched mode extending the instrument far beyond its original range.
 - Preset list running from faithful to far beyond the hardware.
-- 163 samples at 48 kHz / 24-bit, embedded losslessly (73 MB source library).
+- 163 samples at 48 kHz / 24-bit, stored losslessly (73 MB source library).

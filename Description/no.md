@@ -4,7 +4,7 @@ Ved siden av mikseren finner du en ADSR-envelope, vibrato med dybde og hastighet
 
 Et båndekko og en romklang avslutter kjeden, begge fra impulsresponser. Presetlisten går fra trofaste Stylophone-lyder til lyder maskinvaren ikke kan lage, og en ekstra modus strekker samplene langt over og under det opprinnelige registeret.
 
-163 sampler i 48 kHz / 24 bit, bygd inn i pluginen som tapsfri FLAC.
+163 sampler i 48 kHz / 24 bit, lagret som tapsfri FLAC i én samplefil som installasjonsprogrammet legger på plass.
 
 ## Funksjoner
 
@@ -17,4 +17,4 @@ Et båndekko og en romklang avslutter kjeden, begge fra impulsresponser. Presetl
 - Impulsresponser for båndekko og romklang.
 - Pitch Stretched-modus som utvider instrumentet langt utover det opprinnelige registeret.
 - Presetliste som går fra trofaste lyder til langt forbi maskinvaren.
-- 163 sampler i 48 kHz / 24 bit, bygd inn tapsfritt (73 MB kildebibliotek).
+- 163 sampler i 48 kHz / 24 bit, lagret tapsfritt (73 MB kildebibliotek).
